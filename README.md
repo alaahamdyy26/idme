@@ -27,14 +27,14 @@ The project structure is organized as follows:
     - **types**: Common types used across the app
     - **utils**: Common utils used across the app.
    
-3.**/screens:**  Top-level screens or pages of the app.
+3. **/screens:**  Top-level screens or pages of the app.
       - **/purchases.tsx:** Renders either the purchases' table or list based on the screen (mobile vs desktop)
 
-4.**assets/:** Assets like logos and images used in the project.
+4. **assets/:** Assets like logos and images used in the project.
 
-5.**package.json:** Node.js package configuration.
+5. **package.json:** Node.js package configuration.
 
-6.**tsconfig.json:** TypeScript configuration.
+6. **tsconfig.json:** TypeScript configuration.
 
 ### Things To-do:
 - Make the app load in chunks to avoid loading both desktop and mobile components for any screen.
