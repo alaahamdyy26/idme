@@ -20,31 +20,21 @@ You may also see any lint errors in the console.
 ### Project Structure
 The project structure is organized as follows:
 
-1.**src/:** Contains the source code of the application.
-
-2.**common/:** 
-    -
-3.**screens/:** Top-level screens or pages of the app.
-
-4.**utils/:** Utility functions and helpers.
-
-5.**types/:** TypeScript type definitions.
-
-6.**assets/:** Static assets and HTML template.
-
-7.**package.json:** Node.js package configuration.
-
-8.**tsconfig.json:** TypeScript configuration.
-
 1. **src/:** Contains the source code of the application.
 2. **/common/:**
     - **components**: React shared/flexible UI components to be used across the app.
     - **layout**: Common layout that could eventually include shared page elements such as header, sidebar, footer, etc
     - **types**: Common types used across the app
     - **utils**: Common utils used across the app.
+   
 3.**/screens:**  Top-level screens or pages of the app.
       - **/purchases.tsx:** Renders either the purchases' table or list based on the screen (mobile vs desktop)
 
+4.**assets/:** Assets like logos and images used in the project.
+
+5.**package.json:** Node.js package configuration.
+
+6.**tsconfig.json:** TypeScript configuration.
 
 ### Things To-do:
 - Make the app load in chunks to avoid loading both desktop and mobile components for any screen.
