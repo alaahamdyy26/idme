@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Purchase List App
+A responsive Purchase List application built with React and TypeScript that works seamlessly on both mobile and desktop devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Overview
+The Purchase List App is a simple tool for viewing purchases whether you're on your mobile device or desktop. 
 
 ## Available Scripts
 
@@ -14,10 +17,42 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Project Structure
+The project structure is organized as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.**src/:** Contains the source code of the application.
+
+2.**common/:** 
+    -
+3.**screens/:** Top-level screens or pages of the app.
+
+4.**utils/:** Utility functions and helpers.
+
+5.**types/:** TypeScript type definitions.
+
+6.**assets/:** Static assets and HTML template.
+
+7.**package.json:** Node.js package configuration.
+
+8.**tsconfig.json:** TypeScript configuration.
+
+1. **src/:** Contains the source code of the application.
+2. **/common/:**
+    - **components**: React shared/flexible UI components to be used across the app.
+    - **layout**: Common layout that could eventually include shared page elements such as header, sidebar, footer, etc
+    - **types**: Common types used across the app
+    - **utils**: Common utils used across the app.
+3.**/screens:**  Top-level screens or pages of the app.
+      - **/purchases.tsx:** Renders either the purchases' table or list based on the screen (mobile vs desktop)
+
+
+### Things To-do:
+- Make the app load in chunks to avoid loading both desktop and mobile components for any screen.
+- Define design system where we can unify colors and spacing used across the app for consistency.
+- Better error handling for data fetching
+- Use <ErrorBoundry/> to catch errors and handle them gracefully.
+
+
 
 ### `npm run build`
 
