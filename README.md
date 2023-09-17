@@ -1,20 +1,10 @@
 # Purchase List App
 A responsive Purchase List application built with React and TypeScript that works seamlessly on both mobile and desktop devices.
+We're using [StyledComponent](https://emotion.sh/docs/styled) for styles.
 
 ## Overview
 The Purchase List App is a simple tool for viewing purchases whether you're on your mobile device or desktop. 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### Project Structure
 The project structure is organized as follows:
@@ -37,6 +27,19 @@ The project structure is organized as follows:
 - Better error handling for data fetching
 - Use `<ErrorBoundry/>` to catch errors and handle them gracefully.
 - Add unit & integration tests.
+
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### `npm run build`
 
